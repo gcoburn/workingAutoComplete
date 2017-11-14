@@ -25,7 +25,7 @@
 </div>
 </body>
 <?php
-// used to test if the connection to the db works
+// used to test if the connection to the db works. If type ahead isn't working uncomment the next line and see if you can do simple select statement
 //include "auto.php";
 ?>
 </html>
