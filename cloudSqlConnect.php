@@ -1,9 +1,9 @@
 <?php
 $host = null;
-$socket = "/cloudsql/gary-demo:us-central1:ccs-sql"; /* Host name */
+$socket = "/cloudsql/<PROJECT-NAME>:<LOCATION>:<DB-INSTANCE-NAME>";
 $user = "root"; /* User */
-$password = "P@ssw0rd"; /* Password */
-$dbname = "giwacdb"; /* Database name */
+$password = "PASSWORD"; /* Password */
+$dbname = "DB-NAME"; /* Database name */
 
 //connect with the database
 $db = mysqli_connect($host, $user, $password, $dbname, $port, $socket);
